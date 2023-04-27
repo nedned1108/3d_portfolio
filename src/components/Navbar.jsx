@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { NavLink } from 'react-router-dom'
-import { logo, menu, close } from '../assets'
+import { menu, close } from '../assets'
+import ned_logo from '../assets/ned-logo.png'
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -22,7 +23,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={ned_logo} alt='logo' className='w-9 h-9 object-contain' />
         </Link>
       </div>
     </nav>
