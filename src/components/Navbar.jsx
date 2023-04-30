@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles'
 import { NavLink } from 'react-router-dom'
+import { navLinks } from '../constants'
 import { menu, close } from '../assets'
 import ned_logo from '../assets/ned-logo.png'
 
@@ -12,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddindX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex fixed items-center py-5 top-0 z-20 bg-primary`}
     >
       <div className='flex items-center justify-between w-full max-w-7xl mx-auto'>
         <Link 
@@ -24,7 +25,16 @@ const Navbar = () => {
           }}
         >
           <img src={ned_logo} alt='logo' className='w-9 h-9 object-contain' />
+          <p className='text-white text-[18px] font-bold cursor-pointer' >Ned 
+          <span className='sm:block hidden' >| JavaScript Mastery</span></p>
         </Link>
+        <ul className='list-none hidden sm:flex flex-row gap-10'>
+          {navLinks.map((link) => (
+            <li key={link.id}>
+              <a href={`#${link.id}`}>{link.title}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   )
