@@ -30,7 +30,12 @@ const Navbar = () => {
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
-            <li key={link.id}>
+            <li 
+              key={link.id}
+              className = {`${
+                active === link.id ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`   }
+            >
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
