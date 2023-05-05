@@ -45,18 +45,18 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
+  // {
+  //   title: "React Native Developer",
+  //   icon: mobile,
+  // },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "Content Creator",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -72,10 +72,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -92,10 +92,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -104,10 +104,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
