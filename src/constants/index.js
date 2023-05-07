@@ -19,6 +19,11 @@ import {
   starbucks,
   tesla,
   shopify,
+  appacademy,
+  bpsos,
+  csu,
+  gsu,
+  ega,
   carrent,
   jobit,
   tripguide,
@@ -118,8 +123,8 @@ const experiences = [
   {
     title: "Associate's Degree",
     company_name: "Georgia Perimeter College - Georgia State University",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: gsu,
+    iconBg: "#E6DEDD",
     date: "January 2016 - December 2018",
     points: [
       "Outstanding student Award in Statistics",
@@ -128,8 +133,8 @@ const experiences = [
   {
     title: "Bachelor's Degree",
     company_name: "Clayton State University",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: csu,
+    iconBg: "#E6DEDD", //#383E56
     date: "Jan 2019 - May 2022",
     points: [
       "Bachelor degree of Science in Health Sciences with 3.3 GPA",
@@ -138,8 +143,8 @@ const experiences = [
   {
     title: "Project Coordinator",
     company_name: "Eastern Glass and Aluminum",
-    icon: meta,
-    iconBg: "#383E56",
+    icon: ega,
+    iconBg: "#E6DEDD",
     date: "August 2020 - July 2021",
     points: [
       "Coordinate 4+ projects to improve processes and workflow operations while ensuring compliance with company, general contractors, and subcontractors resulting in a net profit increase of over $100,000.",
@@ -150,8 +155,8 @@ const experiences = [
   {
     title: "Internship",
     company_name: "Boat People SOS",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: bpsos,
+    iconBg: "#E6DEDD", //#383E56
     date: "December 2021 - April 2022",
     points: [
       "Utilized Practice Fusion, a cloud-based health record platform to create and update health histories for 100+ new patients.",
@@ -161,8 +166,8 @@ const experiences = [
   {
     title: "Full-stack Software Engineer Certification",
     company_name: "App Academy",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: appacademy,
+    iconBg: "#E6DEDD",
     date: "September 2022 - March 2023",
     points: [
       "1000+ hours Immersive software development course with focus on full stack web development.",

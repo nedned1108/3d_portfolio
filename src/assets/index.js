@@ -25,6 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import appacademy from "./company/appacademy.png";
+import bpsos from "./company/bpsos.png";
+import csu from "./company/csu.png";
+import gsu from "./company/gsu.png";
+import ega from "./company/ega.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +61,11 @@ export {
   shopify,
   starbucks,
   tesla,
+  appacademy,
+  bpsos,
+  csu,
+  gsu,
+  ega,
   carrent,
   jobit,
   tripguide,
