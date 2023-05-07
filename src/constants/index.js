@@ -117,15 +117,12 @@ const technologies = [
 const experiences = [
   {
     title: "Associate's Degree",
-    company_name: "Georgia Perimeter College",
+    company_name: "Georgia Perimeter College - Georgia State University",
     icon: starbucks,
     iconBg: "#383E56",
     date: "January 2016 - December 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Outstanding student Award in Statistics",
     ],
   },
   {
@@ -135,10 +132,30 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2019 - May 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Bachelor degree of Science in Health Sciences with 3.3 GPA",
+    ],
+  },
+  {
+    title: "Project Coordinator",
+    company_name: "Eastern Glass and Aluminum",
+    icon: meta,
+    iconBg: "#383E56",
+    date: "August 2020 - July 2021",
+    points: [
+      "Coordinate 4+ projects to improve processes and workflow operations while ensuring compliance with company, general contractors, and subcontractors resulting in a net profit increase of over $100,000.",
+      "Planned, established and communicated project deliverables to meet deadlines and maintain project schedules.",
+      "Worked with project teams and contractors to ensure effective collaboration and timely completion of tasks.",
+    ],
+  },
+  {
+    title: "Internship",
+    company_name: "Boat People SOS",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "December 2021 - April 2022",
+    points: [
+      "Utilized Practice Fusion, a cloud-based health record platform to create and update health histories for 100+ new patients.",
+      "Coordinated between patients and doctors to ensure effective communication and streamlined care.",
     ],
   },
   {
@@ -148,23 +165,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "September 2022 - March 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "1000+ hours Immersive software development course with focus on full stack web development.",
     ],
   },
 ];
