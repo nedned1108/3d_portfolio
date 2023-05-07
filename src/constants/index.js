@@ -15,6 +15,11 @@ import {
   git,
   figma,
   docker,
+  express,
+  flask,
+  postgresql,
+  python,
+  sql,
   meta,
   starbucks,
   tesla,
@@ -47,21 +52,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Front-end Developer",
+    title: "Web Developer",
     icon: web,
   },
-  // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
-  // },
   {
     title: "Full-stack Software Engineer",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "Frontend Developer",
+    icon: mobile,
+  },
+  {
+    title: "Backend Developer",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -77,10 +82,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "Python",
+    icon: python,
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -97,10 +102,14 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  {
+    name: "Express JS",
+    icon: express,
+  },
+  {
+    name: "Flask",
+    icon: flask,
+  },
   {
     name: "Three JS",
     icon: threejs,
@@ -109,10 +118,10 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
   {
     name: "docker",
     icon: docker,
