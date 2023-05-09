@@ -21,7 +21,12 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with a link to the live version and the source code. It reflects my passion for creating applications that are both functional and beautiful my ability to solve complex problems and work with different technologies.
         </motion.p>
-        
+      </div>
+
+      <div className='mt-20 flex flex-wrap gap-7' >
+        {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
       </div>
     </>
   )
