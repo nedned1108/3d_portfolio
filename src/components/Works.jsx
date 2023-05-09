@@ -6,6 +6,21 @@ import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
+const ProjectCard = ({ index, name, description, image, tags, source_code_link, liveLink }) => (
+  <motion.div 
+    variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+  >
+    <Tilt
+      options={{ max: 25, scale: 1, speed: 450 }}
+      className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+    >
+      <div className='relative w-full h-[230px]' >
+
+      </div>
+    </Tilt>
+  </motion.div>
+)
+
 const Works = () => {
   return (
     <>
