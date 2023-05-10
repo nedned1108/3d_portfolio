@@ -217,7 +217,7 @@ const testimonials = [
 const projects = [
   {
     name: "Shootstarter",
-    description: [
+    descriptions: [
       "Project funding website inspired by Kickstarter using Python and Flask server",
       "A web application that allows users to create and fund crowdfunding projects.",
       "Managed the frontend state of application using React and Redux.",
@@ -244,7 +244,7 @@ const projects = [
   },
   {
     name: "Gulp",
-    description: [
+    descriptions: [
       "Crowd-sourced reviews about businesses using Python",
       "Led a group of four software engineers through the planning and building phase of Gulp",
       "Integrated Google Maps API to provide business locations, improving the website’s functionality",
@@ -270,7 +270,7 @@ const projects = [
   },
   {
     name: "Mybnb",
-    description: [
+    descriptions: [
       "A platform for users to list rental properties, book rentals, and leave reviews",
       "Set up and Express Restful API for streamlined data management and operation",
       "Connected to PostgreSQL Render backend to store and update database",
