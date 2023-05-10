@@ -32,6 +32,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  mybnb,
+  gulp,
+  shootstarter,
   threejs,
 } from "../assets";
 
@@ -230,8 +233,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: shootstarter,
+    source_code_link: "https://github.com/nedned1108/capstone-project-shootstarter",
   },
   {
     name: "Gulp",
@@ -251,8 +254,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: gulp,
+    source_code_link: "https://github.com/glwo/pong-grp10-proj",
   },
   {
     name: "Mybnb",
@@ -272,8 +275,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: mybnb,
+    source_code_link: "https://github.com/nedned1108/API-project",
   },
 ];
 

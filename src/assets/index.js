@@ -39,6 +39,9 @@ import ega from "./company/ega.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mybnb from "./mybnb.png";
+import gulp from "./gulp.png";
+import shootstarter from "./shootstarter.png";
 
 export {
   logo,
@@ -79,4 +82,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  mybnb,
+  gulp,
+  shootstarter,
 };
