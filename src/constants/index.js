@@ -217,8 +217,13 @@ const testimonials = [
 const projects = [
   {
     name: "Shootstarter",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    description: [
+      "Project funding website inspired by Kickstarter using Python and Flask server",
+      "A web application that allows users to create and fund crowdfunding projects.",
+      "Managed the frontend state of application using React and Redux.",
+      "Customized multiple frontend functions to handle data and ensure a seamless user experience.",
+      "Utilized chat-bot as an AI assistant"
+    ],
     tags: [
       {
         name: "python",
@@ -239,8 +244,12 @@ const projects = [
   },
   {
     name: "Gulp",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    description: [
+      "Crowd-sourced reviews about businesses using Python",
+      "Led a group of four software engineers through the planning and building phase of Gulp",
+      "Integrated Google Maps API to provide business locations, improving the website’s functionality",
+      "Designed search features and categories for a user-friendly interface",
+    ], 
     tags: [
       {
         name: "javascript",
@@ -261,8 +270,12 @@ const projects = [
   },
   {
     name: "Mybnb",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    description: [
+      "A platform for users to list rental properties, book rentals, and leave reviews",
+      "Set up and Express Restful API for streamlined data management and operation",
+      "Connected to PostgreSQL Render backend to store and update database",
+      "Ensured the functionality and reliability of endpoints, responses, and error handling by conducting API testing with Postman."
+    ],
     tags: [
       {
         name: "react",
