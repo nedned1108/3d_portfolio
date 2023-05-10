@@ -34,6 +34,7 @@ const ProjectCard = ({ index, name, descriptions, image, tags, source_code_link,
         <ul>
           {descriptions.map((description, index) => (
             <li
+              key={index}
               className='text-secondary text-[14px] mt-2'
             >- {description}</li>
           ))}
