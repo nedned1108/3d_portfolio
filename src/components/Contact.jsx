@@ -17,9 +17,11 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
-    const { name, value } = e.target;
+    const { target } = e;
+    const { name, value } = target;
     setForm({...form, [name]: value})
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -35,21 +37,21 @@ const Contact = () => {
         message: form.message,
       },
       'k9Ji-ldKtOldf2daq'
-    )
-    .then(() => {
-      setLoading(false);
-      alert('Thank you. I will get back to you as soon as possible.');
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thank you. I will get back to you as soon as possible.');
 
-      setForm({
-        name: "",
-        email: "",
-        message: "",
-      });
-    }, (error) => {
-      setLoading(false);
-      console.log(error);
-      alert('Sorry, something went wrong. Please try again later.');
-    })
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      }, (error) => {
+        setLoading(false)
+        console.log(error);
+        alert('Sorry, something went wrong. Please try again later.');
+      })
   };
 
   return (
@@ -61,7 +63,7 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <form
-          ref={handleSubmit}
+          ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
         >
