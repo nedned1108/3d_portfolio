@@ -235,6 +235,7 @@ const projects = [
     ],
     image: shootstarter,
     source_code_link: "https://github.com/nedned1108/capstone-project-shootstarter",
+    liveLink: "https://shootstarter.onrender.com",
   },
   {
     name: "Gulp",
@@ -256,6 +257,7 @@ const projects = [
     ],
     image: gulp,
     source_code_link: "https://github.com/glwo/pong-grp10-proj",
+    liveLink: "https://gulp.onrender.com/",
   },
   {
     name: "Mybnb",
@@ -277,6 +279,7 @@ const projects = [
     ],
     image: mybnb,
     source_code_link: "https://github.com/nedned1108/API-project",
+    liveLink: "https://airbnb-api-project-znib.onrender.com/",
   },
 ];
 

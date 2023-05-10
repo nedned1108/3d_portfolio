@@ -28,7 +28,8 @@ const ProjectCard = ({ index, name, description, image, tags, source_code_link, 
 
       <div className='mt-5'>
         <h3
-          className='text-white font-bold text-[24px]'
+          onClick={() => window.open(liveLink, '_blank')}
+          className='text-white font-bold text-[24px] cursor-pointer'
         >{name}</h3>
         <p
           className='text-secondary text-[14px] mt-2'
