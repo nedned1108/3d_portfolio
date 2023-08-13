@@ -21,7 +21,7 @@ import {
   postgresql,
   python,
   sql,
-  Java,
+  java,
   spring,
   appacademy,
   bpsos,
@@ -73,7 +73,7 @@ const services = [
 const technologies = [
   {
     name: "Java",
-    icon: Java
+    icon: java
   },
   {
     name: "Spring Boot",
@@ -199,7 +199,7 @@ const experiences = [
     title: "Full-stack Software Engineer Internship",
     company_name: "Stealth Startup",
     icon: stealthstartup,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56", // "#E6DEDD",
     date: "May 2023 - current",
     points: [
       "Built the initial platform for a startup founded by 2 Harvard Business School students with the mission of providing trusted recommendations by everyone.",
