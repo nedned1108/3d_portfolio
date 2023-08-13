@@ -25,6 +25,8 @@ import flask from "./tech/flask.png";
 import postgresql from "./tech/postgresql.png";
 import python from "./tech/python.png";
 import sql from "./tech/sql.png";
+import java from "./tech/java.png";
+import spring from "./tech/spring.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -35,6 +37,8 @@ import bpsos from "./company/bpsos.png";
 import csu from "./company/csu.png";
 import gsu from "./company/gsu.png";
 import ega from "./company/ega.png";
+import cognixia from "./company/cognixia.png";
+import stealthstartup from "./company/stealthstartup.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -85,4 +89,8 @@ export {
   mybnb,
   gulp,
   shootstarter,
+  cognixia,
+  stealthstartup,
+  java,
+  spring,
 };
