@@ -1,3 +1,4 @@
+import { s } from "maath/dist/misc-7d870b3c.esm";
 import {
   mobile,
   backend,
@@ -20,18 +21,15 @@ import {
   postgresql,
   python,
   sql,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  Java,
+  spring,
   appacademy,
   bpsos,
   csu,
   gsu,
   ega,
-  carrent,
-  jobit,
-  tripguide,
+  cognixia,
+  stealthstartup,
   mybnb,
   gulp,
   shootstarter,
@@ -63,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Frontend Developer",
+    title: "Java Developer",
     icon: mobile,
   },
   {
@@ -73,6 +71,18 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "Java",
+    icon: Java
+  },
+  {
+    name: "Spring Boot",
+    icon: spring,
+  },
+  {
+    name: "SQL",
+    icon: sql,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -128,7 +138,7 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
-  },
+  }
 ];
 
 const experiences = [
@@ -185,33 +195,46 @@ const experiences = [
       "1000+ hours Immersive software development course with focus on full stack web development.",
     ],
   },
+  {
+    title: "Full-stack Software Engineer Internship",
+    company_name: "Stealth Startup",
+    icon: stealthstartup,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - current",
+    points: [
+      "Built the initial platform for a startup founded by 2 Harvard Business School students with the mission of providing trusted recommendations by everyone.",
+      "Contributing to the early phase process resulted in the successful deployment of the first functional test version within a time frame of 2 weeks.",
+      "Designed and developed front-end and back-end of an application yielding an intuitive and streamlined user experience."
+    ],
+  },
+  {
+    title: "Java Developer",
+    company_name: "Cognixia USA",
+    icon: cognixia,
+    iconBg: "#E6DEDD",
+    date: "June 2023 - current",
+    points: [
+      "Database Design - designed databases under principles of Normalization and ACID and SOLID patterns.",
+      "Develop a full suite Spring Boot REST API, implementing Spring Security, Hibernate, JPA, and Mockito Test Suite"
+    ],
+  },
 ];
 
 const testimonials = [
   {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    testimonial: "I highly recommend Ned as a Full-Stack Engineer. He played a key role in building our platform from scratch. Ned's responsiveness and attentiveness to our requests were exceptional, making collaboration smooth and efficient. Additionally, his initiative in implementing new features significantly improved the customer experience. It has been a pleasure working with Ned, and I confidently endorse him for any future projects.",
+    name: "Jorge Tirado Tolosa",
+    designation: "MBA Candidate at Harvard Business School",
+    company: "Stealth Startup",
+    image: "https://media.licdn.com/dms/image/D4E03AQEf7zo-d52k9w/profile-displayphoto-shrink_800_800/0/1669142573120?e=1697673600&v=beta&t=IRlPHVP7cSjdFAwOZmZIVb6BUEB2EPTdEW_x4KAkW6w",
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+    testimonial: "Ned is a skilled full stack engineer that developed startrpacks from scratch. He was able to build out the product requirements efficiently, work hard to accommodate for last minute/adhoc requirement changes, and be a great team player. I recommend Ned to work on any challenging task as he is able to develop new skills and problem solve very effectively.",
+    name: "Brian Hwang",
+    designation: "MBA Candidate at Harvard Business School",
+    company: "Stealth Startup",
+    image: "https://media.licdn.com/dms/image/D4E03AQHcYwc2MYWUnQ/profile-displayphoto-shrink_800_800/0/1675536339821?e=1697673600&v=beta&t=Bvj9-hDiZFM6U7CrtS9VktNfyMTpto_7wJM1PGUinyA",
+  }
 ];
 
 const projects = [
