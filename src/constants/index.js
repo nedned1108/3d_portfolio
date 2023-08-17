@@ -135,7 +135,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Associate's Degree",
+    title: "Associate's Degree of Science",
     company_name: "Georgia Perimeter College - Georgia State University",
     icon: gsu,
     iconBg: "#E6DEDD",
@@ -145,7 +145,7 @@ const experiences = [
     ],
   },
   {
-    title: "Bachelor's Degree",
+    title: "Bachelor's Degree of Science in Health Science",
     company_name: "Clayton State University",
     icon: csu,
     iconBg: "#E6DEDD", //#383E56
@@ -188,7 +188,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full-stack Software Engineer Internship",
+    title: "Full-stack Software Engineer Volunteer",
     company_name: "Stealth Startup",
     icon: stealthstartup,
     iconBg: "#383E56", // "#E6DEDD",
