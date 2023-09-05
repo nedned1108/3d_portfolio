@@ -192,7 +192,7 @@ const experiences = [
     company_name: "Stealth Startup",
     icon: stealthstartup,
     iconBg: "#383E56", // "#E6DEDD",
-    date: "May 2023 - current",
+    date: "May 2023 - September 2023",
     points: [
       "Built the initial platform for a startup founded by 2 Harvard Business School students with the mission of providing trusted recommendations by everyone.",
       "Contributing to the early phase process resulted in the successful deployment of the first functional test version within a time frame of 2 weeks.",
@@ -204,7 +204,7 @@ const experiences = [
     company_name: "Cognixia USA",
     icon: cognixia,
     iconBg: "#E6DEDD",
-    date: "June 2023 - current",
+    date: "June 2023 - September 2023",
     points: [
       "Database Design - designed databases under principles of Normalization and ACID and SOLID patterns.",
       "Develop a full suite Spring Boot REST API, implementing Spring Security, Hibernate, JPA, and Mockito Test Suite"
