@@ -228,6 +228,7 @@ const testimonials = [
     designation: "MBA Candidate at Harvard Business School",
     company: "Stealth Startup",
     image: "https://media.licdn.com/dms/image/D4E03AQEf7zo-d52k9w/profile-displayphoto-shrink_800_800/0/1669142573120?e=1697673600&v=beta&t=IRlPHVP7cSjdFAwOZmZIVb6BUEB2EPTdEW_x4KAkW6w",
+    linkedin:"https://www.linkedin.com/in/jorgetiradotolosa/"
   },
   {
     testimonial: "Ned is a skilled full stack engineer that developed startrpacks from scratch. He was able to build out the product requirements efficiently, work hard to accommodate for last minute/adhoc requirement changes, and be a great team player. I recommend Ned to work on any challenging task as he is able to develop new skills and problem solve very effectively.",
@@ -235,6 +236,7 @@ const testimonials = [
     designation: "MBA Candidate at Harvard Business School",
     company: "Stealth Startup",
     image: "https://media.licdn.com/dms/image/D4E03AQHcYwc2MYWUnQ/profile-displayphoto-shrink_800_800/0/1675536339821?e=1697673600&v=beta&t=Bvj9-hDiZFM6U7CrtS9VktNfyMTpto_7wJM1PGUinyA",
+    linkedin:"https://www.linkedin.com/in/c13brianhwang/"
   }
 ];
 
