@@ -33,6 +33,7 @@ import {
   mybnb,
   gulp,
   shootstarter,
+  social_media_management,
   threejs,
 } from "../assets";
 
@@ -253,7 +254,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "kommunicate",
+        name: "ai-chatbot",
         color: "pink-text-gradient",
       },
     ],
@@ -264,33 +265,33 @@ const projects = [
   {
     name: "Social Account Manager",
     descriptions: [
-      "A back-end project that allows users to manage their social media accounts.",
-      "Led a team of 3 completed a back-end project using Java and Spring Boot in 4 days.",
-      "Managed spring security and authentication to ensure the security of the application.",
-      "Tested the application using Mockito and JUnit to ensure the functionality of the application.",
+      "Back-end project that allows users to manage their social media accounts.",
+      "Led a team of 3 building the project using Java and Spring Boot in 4 days.",
+      "Managed Authentication and Authorization using Spring Security to ensure the security of the application.",
+      "Tested the application using Mockito and JUnit to improve the reliability of the application.",
     ],
     tags: [
       {
-        name: "python",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "flask",
+        name: "springboot",
         color: "green-text-gradient",
       },
       {
-        name: "kommunicate",
+        name: "mockito",
         color: "pink-text-gradient",
       },
     ],
-    image: shootstarter,
-    source_code_link: "https://github.com/nedned1108/capstone-project-shootstarter",
-    liveLink: "https://shootstarter.onrender.com",
+    image: social_media_management,
+    source_code_link: "https://github.com/nedned1108/Social-Media-Accounts-Management",
+    liveLink: "https://github.com/nedned1108/Social-Media-Accounts-Management",
   },
   {
     name: "Gulp",
     descriptions: [
-      "Crowd-sourced reviews about businesses using Python",
+      "Crowd-sourced reviews about businesses using Python and Flask server",
       "Led a group of four software engineers through the planning and building phase of Gulp",
       "Integrated Google Maps API to provide business locations, improving the website’s functionality",
       "Designed search features and categories for a user-friendly interface",
@@ -316,8 +317,8 @@ const projects = [
   {
     name: "Mybnb",
     descriptions: [
-      "A platform for users to list rental properties, book rentals, and leave reviews",
-      "Set up and Express Restful API for streamlined data management and operation",
+      "Platform for users to list rental properties, book rentals, and leave reviews",
+      "Set up Express RESTful API for streamlined data management and operation",
       "Connected to PostgreSQL Render backend to store and update database",
       "Ensured the functionality and reliability of endpoints, responses, and error handling by conducting API testing with Postman."
     ],

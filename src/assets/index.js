@@ -46,6 +46,7 @@ import tripguide from "./tripguide.png";
 import mybnb from "./mybnb.png";
 import gulp from "./gulp.png";
 import shootstarter from "./shootstarter.png";
+import social_media_management from "./social_media_management.png";
 
 export {
   logo,
@@ -89,6 +90,7 @@ export {
   mybnb,
   gulp,
   shootstarter,
+  social_media_management,
   cognixia,
   stealthstartup,
   java,
