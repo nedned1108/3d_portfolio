@@ -143,16 +143,16 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Associate's Degree of Science",
-    company_name: "Georgia Perimeter College - Georgia State University",
-    icon: gsu,
-    iconBg: "#E6DEDD",
-    date: "January 2016 - December 2018",
-    points: [
-      "Outstanding student Award in Statistics",
-    ],
-  },
+  // {
+  //   title: "Associate's Degree of Science",
+  //   company_name: "Georgia Perimeter College - Georgia State University",
+  //   icon: gsu,
+  //   iconBg: "#E6DEDD",
+  //   date: "January 2016 - December 2018",
+  //   points: [
+  //     "Outstanding student Award in Statistics",
+  //   ],
+  // },
   {
     title: "Bachelor's Degree of Science in Health Science",
     company_name: "Clayton State University",
@@ -164,7 +164,7 @@ const experiences = [
     ],
   },
   {
-    title: "Project Coordinator",
+    title: "Project Coordinator - Superintendent",
     company_name: "Eastern Glass and Aluminum",
     icon: ega,
     iconBg: "#E6DEDD",
