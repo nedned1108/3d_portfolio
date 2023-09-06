@@ -46,9 +46,13 @@ export const navLinks = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "feedback",
+    title: "Feedback",
   },
+  // {
+  //   id: "contact",
+  //   title: "Contact",
+  // },
 ];
 
 const services = [
@@ -238,6 +242,32 @@ const projects = [
       "Managed the frontend state of application using React and Redux.",
       "Customized multiple frontend functions to handle data and ensure a seamless user experience.",
       "Utilized chat-bot as an AI assistant"
+    ],
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "green-text-gradient",
+      },
+      {
+        name: "kommunicate",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shootstarter,
+    source_code_link: "https://github.com/nedned1108/capstone-project-shootstarter",
+    liveLink: "https://shootstarter.onrender.com",
+  },
+  {
+    name: "Social Account Manager",
+    descriptions: [
+      "A back-end project that allows users to manage their social media accounts.",
+      "Led a team of 3 completed a back-end project using Java and Spring Boot in 4 days.",
+      "Managed spring security and authentication to ensure the security of the application.",
+      "Tested the application using Mockito and JUnit to ensure the functionality of the application.",
     ],
     tags: [
       {
