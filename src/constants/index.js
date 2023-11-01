@@ -143,22 +143,12 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "Associate's Degree of Science",
-  //   company_name: "Georgia Perimeter College - Georgia State University",
-  //   icon: gsu,
-  //   iconBg: "#E6DEDD",
-  //   date: "January 2016 - December 2018",
-  //   points: [
-  //     "Outstanding student Award in Statistics",
-  //   ],
-  // },
   {
     title: "Bachelor's Degree of Science in Health Science",
     company_name: "Clayton State University",
     icon: csu,
     iconBg: "#E6DEDD", //#383E56
-    date: "Jan 2019 - May 2022",
+    date: "Jan 2019 - July 2022",
     points: [
       "Bachelor degree of Science in Health Sciences with 3.3 GPA",
     ],
@@ -201,7 +191,7 @@ const experiences = [
     company_name: "Stealth Startup",
     icon: stealthstartup,
     iconBg: "#383E56", // "#E6DEDD",
-    date: "May 2023 - September 2023",
+    date: "April 2023 - June 2023",
     points: [
       "Built the initial platform for a startup founded by 2 Harvard Business School students with the mission of providing trusted recommendations by everyone.",
       "Contributing to the early phase process resulted in the successful deployment of the first functional test version within a time frame of 2 weeks.",
@@ -213,10 +203,12 @@ const experiences = [
     company_name: "Cognixia USA",
     icon: cognixia,
     iconBg: "#E6DEDD",
-    date: "June 2023 - September 2023",
+    date: "June 2023 - current",
     points: [
       "Database Design - designed databases under principles of Normalization and ACID and SOLID patterns.",
-      "Develop a full suite Spring Boot REST API, implementing Spring Security, Hibernate, JPA, and Mockito Test Suite"
+      "Develop a full suite Spring Boot REST API, implementing Spring Security, Hibernate, JPA, and Mockito Test Suite",
+      "Collaborated with multiple cross-functional teams of 2 - 3 developers contributing to effectively deliver multiple full-stack web applications",
+      "Participated in 3+ projects following Agile/Scrum methodology to plan, implement, develop and test"
     ],
   },
 ];
@@ -227,7 +219,7 @@ const testimonials = [
     name: "Jorge Tirado Tolosa",
     designation: "MBA Candidate at Harvard Business School",
     company: "Stealth Startup",
-    image: "https://media.licdn.com/dms/image/D4E03AQEf7zo-d52k9w/profile-displayphoto-shrink_800_800/0/1669142573120?e=1697673600&v=beta&t=IRlPHVP7cSjdFAwOZmZIVb6BUEB2EPTdEW_x4KAkW6w",
+    image: "https://media.licdn.com/dms/image/D4E03AQEf7zo-d52k9w/profile-displayphoto-shrink_800_800/0/1669142573120?e=1704326400&v=beta&t=ZIhmXWE89DvRswpCicX-fsFRoFeN4YkGh36OqfUsrEI",
     linkedin:"https://www.linkedin.com/in/jorgetiradotolosa/"
   },
   {
@@ -235,7 +227,7 @@ const testimonials = [
     name: "Brian Hwang",
     designation: "MBA Candidate at Harvard Business School",
     company: "Stealth Startup",
-    image: "https://media.licdn.com/dms/image/D4E03AQHcYwc2MYWUnQ/profile-displayphoto-shrink_800_800/0/1675536339821?e=1697673600&v=beta&t=Bvj9-hDiZFM6U7CrtS9VktNfyMTpto_7wJM1PGUinyA",
+    image: "https://media.licdn.com/dms/image/D4E03AQHcYwc2MYWUnQ/profile-displayphoto-shrink_800_800/0/1675536339821?e=1704326400&v=beta&t=uGtfJksqERw5RJYR99FYbqeVc97i1I30lHbtivHsfJI",
     linkedin:"https://www.linkedin.com/in/c13brianhwang/"
   }
 ];
@@ -247,8 +239,7 @@ const projects = [
       "Project funding website inspired by Kickstarter using Python and Flask server",
       "A web application that allows users to create and fund crowdfunding projects.",
       "Managed the frontend state of application using React and Redux.",
-      "Customized multiple frontend functions to handle data and ensure a seamless user experience.",
-      "Utilized chat-bot as an AI assistant"
+      "Customized multiple frontend functions to handle data and ensure a seamless user experience."
     ],
     tags: [
       {
@@ -260,7 +251,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "ai-chatbot",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
