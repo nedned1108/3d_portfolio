@@ -116,14 +116,6 @@ const technologies = [
     icon: sql,
   },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -136,25 +128,9 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "Express JS",
-    icon: express,
-  },
-  {
-    name: "PostgreSQL",
-    icon: postgresql,
-  }
 ];
 
 const experiences = [
