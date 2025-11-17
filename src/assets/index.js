@@ -27,6 +27,9 @@ import python from "./tech/python.png";
 import sql from "./tech/sql.png";
 import java from "./tech/java.png";
 import spring from "./tech/spring.png";
+import csharp from "./tech/csharp.png";
+import angular from "./tech/angular.png";
+import net from "./tech/net.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -39,6 +42,7 @@ import gsu from "./company/gsu.png";
 import ega from "./company/ega.png";
 import cognixia from "./company/cognixia.png";
 import stealthstartup from "./company/stealthstartup.png";
+import fleethoster from "./company/fleethoster.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -75,6 +79,9 @@ export {
   postgresql,
   python,
   sql,
+  net,
+  csharp,
+  angular,
   meta,
   shopify,
   starbucks,
@@ -93,6 +100,8 @@ export {
   social_media_management,
   cognixia,
   stealthstartup,
+  fleethoster,
   java,
   spring,
 };
+
