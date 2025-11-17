@@ -1,4 +1,4 @@
-import { s } from "maath/dist/misc-7d870b3c.esm";
+bimport { s } from "maath/dist/misc-7d870b3c.esm";
 import {
   mobile,
   backend,
@@ -39,6 +39,9 @@ import {
   shootstarter,
   social_media_management,
   threejs,
+  fuelbi,
+  trackerbi,
+  fleetflix
 } from "../assets";
 
 export const navLinks = [
