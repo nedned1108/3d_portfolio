@@ -51,8 +51,8 @@ import mybnb from "./mybnb.png";
 import gulp from "./gulp.png";
 import shootstarter from "./shootstarter.png";
 import social_media_management from "./social_media_management.png";
-import fuelbi from "./fuelbi.jpeg";
-import trackerbi from "./trackerbi.jpeg";
+import fuelbi from "./fuelbi.jpg";
+import trackerbi from "./trackerbi.jpg";
 import fleetflix from "./fleetflix.png";
 
 export {
@@ -110,5 +110,6 @@ export {
   trackerbi,
   fleetflix
 };
+
 
 
