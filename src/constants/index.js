@@ -24,7 +24,6 @@ import {
   java,
   spring,
   csharp,
-  typescript,
   net,
   angular,
   fleethoster,
