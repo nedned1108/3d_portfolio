@@ -1,4 +1,4 @@
-bimport { s } from "maath/dist/misc-7d870b3c.esm";
+import { s } from "maath/dist/misc-7d870b3c.esm";
 import {
   mobile,
   backend,
@@ -266,7 +266,7 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: '',
+    image: fuelbi,
     source_code_link: "",
     liveLink: "",
   },
@@ -290,7 +290,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: '',
+    image: fleetflix,
     source_code_link: "",
     liveLink: "",
   },
@@ -314,7 +314,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: '',
+    image: trackerbi,
     source_code_link: "",
     liveLink: "",
   }
