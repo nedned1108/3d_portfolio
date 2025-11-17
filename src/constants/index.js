@@ -23,6 +23,11 @@ import {
   sql,
   java,
   spring,
+  csharp,
+  typescript,
+  net,
+  angular,
+  fleethoster,
   appacademy,
   bpsos,
   csu,
@@ -93,6 +98,10 @@ const technologies = [
     icon: csharp
   },
   {
+    name: "Angular",
+    icon: angular
+  },
+  {
     name: "Spring Boot",
     icon: spring,
   },
@@ -158,18 +167,6 @@ const experiences = [
     ],
   },
   {
-    title: "Project Coordinator - Superintendent",
-    company_name: "Eastern Glass and Aluminum",
-    icon: ega,
-    iconBg: "#E6DEDD",
-    date: "August 2020 - July 2021",
-    points: [
-      "Coordinate 4+ projects to improve processes and workflow operations while ensuring compliance with company, general contractors, and subcontractors resulting in a net profit increase of over $100,000.",
-      "Planned, established and communicated project deliverables to meet deadlines and maintain project schedules.",
-      "Worked with project teams and contractors to ensure effective collaboration and timely completion of tasks.",
-    ],
-  },
-  {
     title: "Full-stack Software Engineer Certification",
     company_name: "App Academy",
     icon: appacademy,
@@ -180,7 +177,7 @@ const experiences = [
     ],
   },
   {
-    title: "Full-stack Software Engineer Volunteer",
+    title: "Full-stack Software Engineer Intern",
     company_name: "Stealth Startup",
     icon: stealthstartup,
     iconBg: "#383E56", // "#E6DEDD",
