@@ -51,6 +51,9 @@ import mybnb from "./mybnb.png";
 import gulp from "./gulp.png";
 import shootstarter from "./shootstarter.png";
 import social_media_management from "./social_media_management.png";
+import fuelbi from "./fuelbi.jpeg";
+import trackerbi from "./trackerbi.jpeg";
+import fleetflix from "./fleetflix.png";
 
 export {
   logo,
@@ -103,5 +106,9 @@ export {
   fleethoster,
   java,
   spring,
+  fuelbi,
+  trackerbi,
+  fleetflix
 };
+
 
