@@ -173,7 +173,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "June 2023 - December 2023",
     points: [
-      "Developed a full suite Spring Boot REST API, implementing Spring Security, Hibernate, JPA, and Mockito Test Suite.",
+      "Developed a full Spring Boot REST API suite, implementing Spring Security, Hibernate, JPA, and a comprehensive Mockito test suite, improving system reliability and reducing defects by 30%.",
       "Database Design - designed databases under principles of Normalization and ACID and SOLID patterns.",
       "Managed multiple teams of 2 - 3 developers contributing to effectively deliver a range of full-stack web applications.",
       "Followed Agile/Scrum methodology to plan, implement, develop and test 3+ projects."
@@ -186,13 +186,13 @@ const experiences = [
     iconBg: "#383E56",
     date: "December 2023 - current",
     points: [
-      "Built multiple GEOTAB-integrated applications serving thousands of users for telemetry and fleet data analysis using Angular, TypeScript, and .Net Core in combination with SQL Server and Azure Cosmos Database.",
-      "Worked closely with cross-functional teams to develop an Internal Order Management application in .NET Core and Angular, streamlining order updates for Operations and Support teams.",
-      "Partnered with a team of four to design and deliver a full-stack internal application for billing, subscriptions, and camera management, driving a 70% productivity improvement across the company.",
-      "Developed a fully integrated Shopify storefront with Business Central connector to automate product import/export workflows and inventory management, resulting in a 20% increase in sales.",
-      "Created 6+ n8n-based AI agents to oversee and update 4,000+ dash cameras, enabling automated workflows and real-time alerts.",
-      "Led a team of 3 to deliver 20+ marketing websites using React, Node.js and Zoho CRM with a centralized configuration system for streamlined management and updates in under 4 weeks, contributing to an 25% increase in overall brand recognition.",
-      "Engineered and deployed full-stack applications to support over 7,000 fleet vehicles, improving safety metrics and reducing incident response time by 20%.",
+      "Built multiple GEOTAB-integrated applications used by 500+ enterprise customers, providing telemetry and fleet data analysis using Angular, TypeScript, SQL Server and Azure Cosmos DB.",
+      "Worked closely with cross-functional teams to develop an Internal Order Management application, reducing order update time for Operations and Support teams by 30 - 50% and decreasing manual errors by 25%.",
+      "Partnered with a team of four to design and deliver a full-stack internal application for billing, subscriptions, and camera management, driving a 70%+ productivity improvement and reducing processing time from hours to minutes.",
+      "Developed a fully automated Shopify storefront with a Business Central connector, streamlining product import/export workflows and inventory sync, which contributed to a 20%+ lift in sales and reduced manual operations by 80%",
+      "Created 6+ n8n-based AI agents to oversee 4,000+ dash cameras, enabling automated health checks, firmware updates, and real-time alerts, reducing manual oversight by 90%",
+      "Led a team of 3 to launch 20+ marketing websites using React, Node.js and Zoho CRM implementing a centralized config system that cut update time by 70% and contributed to a 20% increase in brand visibility within one quarter",
+      "Engineered and deployed full-stack applications to support 7,000+ fleet vehicles, improving driver safety compliance and reducing incident response time by 20% across the fleet",
       "Collaborated in a 6-person agile team, contributing to code reviews, CI/CD improvements, and cross-platform integrations."
     ],
   },
@@ -226,7 +226,7 @@ const projects = [
     ],
     tags: [
       {
-        name: "angular",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
@@ -234,11 +234,11 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "C#",
+        name: "Java",
         color: "pink-text-gradient",
       },
       {
-        name: ".NET",
+        name: "Google maps api",
         color: "blue-text-gradient",
       },
     ],
@@ -249,8 +249,8 @@ const projects = [
   {
     name: "Fleetflix and CoachingBI",
     descriptions: [
-        "Designed a feature enabling users to browse camera footage via an interactive timeline and seamlessly request media from any device.",
-        "Optimized performance for a smart dashcam management platform, reducing loading by 80% and able to handle 1000+ devices with ease."
+        "Optimized performance and reduce load times by 80% scaling the platform to reliably support 10,000+ active devices.",
+        "Designed an interactive timeline feature for browsing camera footage, enabling users to request media from any device and reducing footage retrieval time by 40%.",
     ],
     tags: [
       {
@@ -274,7 +274,7 @@ const projects = [
     name: "TrackerBI & ColdChainBI",
     descriptions: [
       "Delivered real-time GPS asset tracking solutions for trailers, containers, and equipment, improving asset visibility and reducing loss risk.",
-      "Engineered interactive map dashboard to visualize real-time GPS data from trailers, containers and equipment, resolving 3 critical bugs improving response times to location incidents by 25%.",
+      "Engineered an interactive map dashboard to visualize real-time GPS data from trailers, containers and equipment, resolving 3 high-priority defects improving response times to location incidents by 25%.",
     ], 
     tags: [
       {
@@ -282,11 +282,11 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "C#",
+        name: "Angular",
         color: "green-text-gradient",
       },
       {
-        name: ".NET",
+        name: "Java",
         color: "pink-text-gradient",
       },
     ],
