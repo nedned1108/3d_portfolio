@@ -41,7 +41,9 @@ import {
   threejs,
   fuelbi,
   trackerbi,
-  fleetflix
+  fleetflix,
+  brian_hwang,
+  jorge_tirado
 } from "../assets";
 
 export const navLinks = [
@@ -204,7 +206,7 @@ const testimonials = [
     name: "Jorge Tirado Tolosa",
     designation: "MBA Candidate at Harvard Business School",
     company: "Stealth Startup",
-    image: "https://media.licdn.com/dms/image/D4E03AQEf7zo-d52k9w/profile-displayphoto-shrink_800_800/0/1669142573120?e=1704326400&v=beta&t=ZIhmXWE89DvRswpCicX-fsFRoFeN4YkGh36OqfUsrEI",
+    image: "jorge_tirado",
     linkedin:"https://www.linkedin.com/in/jorgetiradotolosa/"
   },
   {
@@ -212,7 +214,7 @@ const testimonials = [
     name: "Brian Hwang",
     designation: "MBA Candidate at Harvard Business School",
     company: "Stealth Startup",
-    image: "https://media.licdn.com/dms/image/D4E03AQHcYwc2MYWUnQ/profile-displayphoto-shrink_800_800/0/1675536339821?e=1704326400&v=beta&t=uGtfJksqERw5RJYR99FYbqeVc97i1I30lHbtivHsfJI",
+    image: "brian_hwang",
     linkedin:"https://www.linkedin.com/in/c13brianhwang/"
   }
 ];
