@@ -55,6 +55,9 @@ import fuelbi from "./fuelbi.jpg";
 import trackerbi from "./trackerbi.jpg";
 import fleetflix from "./fleetflix.png";
 
+import brian_hwang from "./brian-hwang.jpg"
+import jorge_tirado from "./jorge-tirado.jpg"
+
 export {
   logo,
   backend,
@@ -108,8 +111,11 @@ export {
   spring,
   fuelbi,
   trackerbi,
-  fleetflix
+  fleetflix,
+  brian_hwang,
+  jorge_tirado
 };
+
 
 
 
